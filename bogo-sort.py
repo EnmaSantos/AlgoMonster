@@ -23,7 +23,7 @@ def bogo_sort(arr):
 # Example usage
 if __name__ == "__main__":
     # Test with a small array (bogo sort is very inefficient!)
-    test_array = [3, 1, 4, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    test_array = [3, 1, 4, 7, 2, 5, 6, 7, 6, 67, 654]
     print(f"Original array: {test_array}")
     
     # Make a copy to sort (bogo_sort modifies the original)
